@@ -1,0 +1,57 @@
+html {
+  background: linear-gradient(to bottom, rgb(244, 244, 244), rgb(136, 132, 132));
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+body {
+  margin: 0px auto;
+  overflow: hidden; 
+}
+.navbar
+{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbar ul li
+{
+   list-style: none;
+   display: inline-block;
+   margin: 0 15px; 
+   
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: darkslategrey;
+    font-size: 15px;
+}
+
+#logoImg {
+  display: block;
+  margin: 0px auto;
+  height: 100vh;
+}
+
+div#countdown {
+  position: fixed;
+  
+  width: 800px;
+  bottom: 5%;
+  text-align: center;
+  /* height: 1.5em;  */
+  border: red dotted 1px;
+  left: 50%;
+  transform: translate(-50%);
+  font-weight: bold;
+
+}
+
+div#countdown div{
+    display: inline;
+    text-align: center;
+}
+
